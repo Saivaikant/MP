@@ -7,7 +7,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <img src="Images/Waste-Management-Logo.png">
+      <img src="images/Waste-Management-Logo.png">
       <div class="title">
       Registeration form
       </div>
@@ -15,21 +15,17 @@
         <form action="connect.php" method="post">
         <div class="input_field">
           <label>First Name</label>
-          <input type="text" class="input" placeholder="first name">
+          <input type="text" class="input" placeholder="first name" name="firstName">
           </div>
           <div class="input_field">
             <label>Last Name</label>
-            <input type="text" class="input" placeholder="last name">
+            <input type="text" class="input" placeholder="last name" name="lastName">
             </div>
-            <div class="input_field">
-              <label>DOB</label>
-              <input type="date" class="input">
-              </div>
                 <div class="input_field">
                   <label>Gender</label>
                   <div class="custom_select">
-                    <select>
-                      <option value="">Select</option>
+                    <select name="gender">
+                      <option value="none">Select</option>
                       <option value="male">Male</option>
                       <option value="female">Female</option>
                     </select>
@@ -37,46 +33,46 @@
                     </div>
                     <div class="input_field">
                       <label>Email Address</label>
-                      <input type="text" class="input" placeholder="Enter your emial">
+                      <input type="text" class="input" placeholder="Enter your emial" name="email">
                       </div>
                       <div class="input_field">
                         <label>Phone Number</label>
-                        <input type="text" class="input" placeholder="Your Phone no">
+                        <input type="number" class="input" placeholder="Your Phone no" name="phno">
                         </div>
                         <div class="input_field">
                           <label>Address</label>
-                          <textarea class="textarea"></textarea>
+                          <textarea class="textarea" name="address"></textarea>
                           </div>
                           <div class="input_field">
-                            <label>KG's of Waste</label>
-                            <input type="range" class="input">
+                            <label>Grams of waste</label>
+                            <input type="number" class="input" placeholder="In grams" name="waste">
                             </div>
                             <div class="input_field">
                               <label>Cloth Waste</label>
                               <div class="custom_select">
-                                <select>
-                                  <option value="">type</option>
-                                  <option value="male">Cloth waste</option>
-                                  <option value="female">Wet Waste</option>
-                                  <option value="female">Dry Waste</option>
+                                <select name="wastetype">
+                                  <option value="none">type</option>
+                                  <option value="w1">Cloth waste</option>
+                                  <option value="w2">Wet Waste</option>
+                                  <option value="w3">Dry Waste</option>
                                 </select>
                                 </div>
                                 </div>
                                 <div class="input_field">
                                   <label>Pickup Location</label>
                                   <div class="custom_select">
-                                    <select>
-                                      <option value="">Available locations</option>
-                                      <option value="male">Kumarswalmy Layout</option>
-                                      <option value="female">Banashnakeri</option>
-                                      <option value="female">JP Nagar</option>
-                                      <option value="female">Majestic</option>
+                                    <select name="pickup">
+                                      <option value="none">Available locations</option>
+                                      <option value="p1">Kumarswalmy Layout</option>
+                                      <option value="p2">Banashnakeri</option>
+                                      <option value="p3">JP Nagar</option>
+                                      <option value="p3">Majestic</option>
                                     </select>
                                     </div>
                                     </div>
                           <div class="input_field">
                             <label>Postal code</label>
-                            <input type="text" class="input" placeholder="Postal code">
+                            <input type="number" class="input" placeholder="Postal code" name="postal">
                             </div>
                             <div class="input_field terms">
                               <label class="check">
@@ -90,7 +86,7 @@
                                 </div>
                   </div>
                   </div>
-      </form>
+                </form>
 
   </body>
 </html>
