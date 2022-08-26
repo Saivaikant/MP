@@ -1,0 +1,211 @@
+.bg-image img {
+  margin:0;
+  width: 100%;
+  height: 500px;
+  filter: brightness(60%);
+}
+.bg-img {
+  position: relative;
+}
+
+.bg-image h1 {
+  position: absolute;
+  top:260px;
+  left: 20%;
+  right:  25%;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.main{
+  width: 80%;
+  height:auto;
+  margin: 10%;
+  margin-top: 0;
+  position: relative;
+}
+
+.main .items{
+  width:45%;
+  height:300px;
+  margin: 0;
+  display: inline-block;
+  float: left;
+  border-style: solid;
+  position: absolute;
+  transition: 1s;
+  top:150px;
+}
+.main .items:hover{
+  transform: scale(1.1);
+}
+
+.main .tags {
+  width:47%;
+  height:300px;
+  margin: 0;
+  float: right;
+  display: inline-block;
+  border-style: solid;
+  position: absolute;
+  top:150px;
+  left: 600px;
+  transition: 1s;
+}
+
+.main .tags:hover{
+  transform: scale(1.1);
+}
+
+.main .pick-up {
+  width:45%;
+  height:300px;
+  margin: 0;
+  display: inline-block;
+  border-style: solid;
+  margin-bottom: 100px;
+  position: absolute;
+  top:500px;
+  left:0;
+  transition: 1s;
+}
+
+.main .pick-up:hover{
+  transform: scale(1.1);
+}
+
+.main .schedule {
+  width:47%;
+  height:300px;
+  margin: 0;
+  display: inline-block;
+  float: right;
+  border-style: solid;
+  position: absolute;
+  top:500px;
+  left:600px;transition: 1s;
+}
+
+.main .schedule:hover{
+  transform: scale(1.1);
+}
+
+
+.main .main-images {
+  width:50px;
+  height: 50px;
+  margin-left: 42%;
+  margin-top: 20px;
+}
+
+.main .items h2,.main .tags h2,.main .pick-up h2,.main .schedule h2{
+  padding:10px;
+  font-size: 30px;
+  text-align: center;
+  font-family: Montserrat;
+  color: orange;
+}
+
+.main .items p,.main .tags p,.main .pick-up p,.main .schedule p{
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-family: Merriweather;
+  color:green;
+}
+
+.main h1{
+  font-size: 40px;
+  margin-top:80px;
+  display: block;
+  text-align: center;
+  margin-bottom: 0;
+  color: orange;
+}
+
+.container{
+  margin-top: 900px;
+  padding-top: 50px;
+  background-color:#0a4f2e;
+  margin-bottom: 0;
+}
+
+.header {
+  width:60%;
+  height:auto;
+  background-color: #FDDA0D;
+  margin: 0;
+  position: absolute;
+  top:1565px;
+  left:230px;
+  font-family: Montserrat;
+  font-weight: normal;
+  
+}
+.header h1{
+  margin:10px 0;
+  text-align: center;
+  font-size: 50px;
+}
+
+.info1,.info2,.info3,.info4{
+  width: 100%;
+  height: 400px;
+  margin:30px 0;
+  transition: 1s;
+}
+
+.info1:hover,.info2:hover,.info3:hover,.info4:hover {
+  transform: scale(1.05);
+}
+
+.info1 .inf-img1 img,.info3 .inf-img1 img {
+  width: 470px;
+  height: 350px;
+  margin: 0;
+  float:left;
+  margin-left: 60px;
+}
+
+.info2 .inf-img1 img,.info4 .inf-img1 img {
+  width: 500px;
+  height: 300px;
+  margin: 0;
+  float:right;
+  margin-right: 50px;
+}
+
+.info1 .inf-text,.info3 .inf-text{
+  width:500px;
+  height: 300px;
+  margin: 0;
+  float: right;
+  margin-right: 50px;
+}
+.info2 .inf-text,.info4 .inf-text{
+  width:500px;
+  height: 300px;
+  margin: 0;
+  float: left;
+  margin-left: 55px;
+}
+
+.inf-text h2{
+  margin: 0;
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 25px;
+  font-family: Merriweather;
+  color: orange;
+}
+
+.inf-text p {
+  margin 0;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px 0;
+  font-family: Montserrat;
+  line-height: 1.5;
+  color: white;
+}

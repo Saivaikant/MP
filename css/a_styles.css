@@ -1,0 +1,99 @@
+.middle {
+  width: 100%;
+  height: auto;
+  margin:0;
+  position: relative;
+}
+
+.middle .mid-bg img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  filter: brightness(60%);
+}
+
+.middle h1 {
+  position: absolute;
+  font-size: 60px;
+  margin: 0;
+  text-align: center;
+  top:40%;
+  left: 40%;
+  color: white;
+  font-family: Montserrat;
+}
+
+.section {
+  position: relative;
+  top:80px;
+  width: 100  %;
+  height: auto;
+  margin:0;
+}
+
+.section .sec1 {
+  float: right;
+  margin-right: 160px;
+  width: 500px;
+  height: 430px;
+}
+
+.section .sec2 {
+  margin-left: 70px;
+  width: 500px;
+  height: auto;
+}
+
+.section .sec2 h4 {
+  margin:0;
+  margin-left: 10px;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #ffde59;
+}
+
+.section .sec2 h1 {
+  margin: 10px 0;
+  margin-left:0;
+  font-size: 40px;
+  color: #1a381e;
+  font-weight: normal;
+  font-family: Merriweather;margin-bottom: 20px;
+}
+
+.section .sec2 h3 {
+    margin-top:0;
+    margin-bottom: 20px;
+    width: 500px;
+    display: block;
+    font-size: 25px;
+    font-weight: normal;
+    font-family: monospace;
+    color: #48604b;
+}
+
+.section .sec2 .sec-list{
+  margin:0;
+  font-size: 18px;
+  font-family: serif;
+  margin-left: 0;
+}
+
+.section .sec2 .sec-list .sec-1{
+  padding: 10px 0;
+  text-align: left;
+  color: #1a381e;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: bold;
+  list-style: none;
+}
+
+.section .sec2 .sec-list .tick1,.section .sec2 .sec-list .tick2,.section .sec2 .sec-list .tick3 {
+  margin-top: 316px;
+  margin-left: 66px;
+}
+.current {
+  text-decoration: underline;
+  color:  #1a381e;
+}
